@@ -127,3 +127,21 @@ footer a {
     text-align: center;
     padding: 10%;
 }
+
+@media (max-width: 800px) {
+    
+    nav {
+        flex-direction: column;
+        max-width: 25%;
+        margin: 0 40%;
+    }
+
+    .large img {
+        max-width: 30rem;
+    }
+
+    .imgs {
+        flex-wrap: wrap;
+    }
+}
+
