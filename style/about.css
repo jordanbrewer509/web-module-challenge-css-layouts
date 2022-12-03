@@ -63,7 +63,7 @@ h1 {
     font-size: 7rem;
     margin: 2%;
     border: 2px solid black;
-    width: 22%;
+    width: 22rem;
     padding: 2% 
 }
 
@@ -95,4 +95,10 @@ footer a {
 
 footer a:hover {
     color:blue;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        width: 22rem;
+    }
 }

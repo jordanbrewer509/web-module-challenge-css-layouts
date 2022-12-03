@@ -62,7 +62,7 @@ h1 {
     font-size: 7rem;
     margin: 2%;
     border: 2px solid black;
-    width: 30%;
+    width: 29rem;
     padding: 2% 
 }
 
@@ -70,6 +70,7 @@ img {
     float: right;
     margin: 0 2%;
 }
+
 p {
     font-size: 2rem;
     max-width: 80%;
@@ -83,4 +84,10 @@ footer a {
 
 footer a:hover {
     color:blue;
+}
+
+@media (max-width: 800px) {
+    img {
+        display: flex;
+    }
 }
